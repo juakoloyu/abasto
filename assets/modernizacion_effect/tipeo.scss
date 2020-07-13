@@ -1,0 +1,24 @@
+
+.tipeo 
+{
+	width: 20ch;
+	font-size: 50px;
+	font-weight: 400;
+	font-family: monospace; 
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid black;
+	animation: cursor 1s step-start infinite, text 3s steps(20);
+} 
+
+@keyframes cursor 
+{
+	0%, 100% { border-color: black; }
+	50% { border-color: transparent; }
+}
+
+@keyframes text 
+{
+	0% { width: 0; }
+	100% { width: 20ch; }
+}
