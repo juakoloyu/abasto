@@ -7,11 +7,11 @@ information in an efficient way of carriers, vehicles, products and
 other related entities in the process.
 
 The system has develop will have the following modules and / or
-functionalities:
-User Management
+functionalities:<br/>
+User Management<br/>
 The system will have an access control with username and password. For
 Therefore, it will be necessary to develop a module that allows managing the
-income to said platform:
+income to said platform:<br/>
 * Registration of new users.
 * Recovery or modification of forgotten passwords.
 Vehicle Management
@@ -37,6 +37,18 @@ of carriers according to the aforementioned data.
 Local Business Management
 * Registration of Companies: New local companies may be registered
 completing data such as name, address, and others.
+* Visualization and edition of companies.
+* Search and filtering of companies: Searches of
+companies according to the aforementioned data.
+Income burden
+* Entry Form: It will be charged for each vehicle that enters a
+form specifying:
+- Type of product: "Food" or "Right of Floor".
+- The tax rate to be collected will be calculated based on tabulated data.
+* Printing of load result: The result of the
+cargo, one copy for the carrier and one for the office.
+* Show receipt form: At the end of the load it can be completed
+and print receipt.
 
 ###################
 What is CodeIgniter
@@ -53,5 +65,5 @@ for a given task.
 ###################
 Dependencies & Libraries
 ###################
-*JQuery 3.4.1
+*JQuery 3.4.1<br/>
 *Bootstrap 4
