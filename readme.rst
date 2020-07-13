@@ -7,46 +7,84 @@ information in an efficient way of carriers, vehicles, products and
 other related entities in the process.
 
 The system has develop will have the following modules and / or
-functionalities:<br/>
-User Management<br/>
+functionalities:  
+
+User Management  
 The system will have an access control with username and password. For
 Therefore, it will be necessary to develop a module that allows managing the
-income to said platform:<br/>
+income to said platform:
+
 * Registration of new users.
+
+
 * Recovery or modification of forgotten passwords.
+
+
 Vehicle Management
+
+
 * Vehicle Registration: You can load vehicles by completing
 their respective data, such as: Domain, Owner, Brand, Model, and
 others.
+
+
 * Data visualization and edition.
+
+
 * Vehicle search and filtering: Searches of
 vehicles according to the aforementioned data.
+
+
 Product Management
+
+
 * Product Registration: New products can be created by completing
 data such as name, code, weight, description.
+
+
 * Viewing and editing products.
+
+
 * Product search and filtering: Searches of
 products according to the aforementioned data.
 Carrier Management
+
+
 * Registration of Carriers: New carriers may be created
 completing data such as name, DNI, driver's license, type of
 license, and others.
+
+
 * Carrier viewing and editing.
+
+
 * Carrier search and filtering: Searches will be possible
 of carriers according to the aforementioned data.
+
+
 Local Business Management
 * Registration of Companies: New local companies may be registered
 completing data such as name, address, and others.
+
+
 * Visualization and edition of companies.
+
+
 * Search and filtering of companies: Searches of
 companies according to the aforementioned data.
 Income burden
+
+
 * Entry Form: It will be charged for each vehicle that enters a
 form specifying:
 - Type of product: "Food" or "Right of Floor".
 - The tax rate to be collected will be calculated based on tabulated data.
+
+
 * Printing of load result: The result of the
 cargo, one copy for the carrier and one for the office.
+
+
 * Show receipt form: At the end of the load it can be completed
 and print receipt.
 
@@ -65,5 +103,6 @@ for a given task.
 ###################
 Dependencies & Libraries
 ###################
-*JQuery 3.4.1<br/>
+*JQuery 3.4.1
+
 *Bootstrap 4
